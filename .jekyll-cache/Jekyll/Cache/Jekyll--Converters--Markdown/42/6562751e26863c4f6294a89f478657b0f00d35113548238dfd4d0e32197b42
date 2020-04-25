@@ -1,0 +1,667 @@
+I"ѳ<h1 id="sprint--medical-supply-guide">SPRINT — Medical Supply Guide</h1>
+
+<p>v1.2.1 - last updated 4/12/2020 @ 11:33 AM Pacific Time</p>
+
+<h2 id="the-problem">The Problem</h2>
+
+<p>COVID-19 is currently spreading exponentially, in a mostly-unchecked fashion, throughout the world. Infection doubling rates are currently as high as 2-3 days. In basic models, such unchecked growth means the disease infects most of the world in just a few months. Current statistics indicate that 15-20% of people who get the disease require hospitalization for respiratory failure for multiple weeks, and often need intense and attentive care from medical professionals. These medical professionals are at severe risk while treating these highly infectious patients, and have an order of magnitude higher mortality rate than the patients themselves as a result. Treatment and care looks like oxygen therapy or intubation for weeks in highly-specialized ICUs.</p>
+
+<p>If infections proceed at their current pace across the globe, <strong>we will not have enough medical supplies to prevent the higher mortality rates (11+%) Italy is seeing as of 3/31/2020.</strong></p>
+
+<h2 id="treating-covid-19">Treating COVID-19</h2>
+
+<p>(Mostly synthesized from <a href="https://docs.google.com/document/d/1XDy2i3ydX8WDu4DrDIcHxhWq0t3ud4T_KVyr_vNWaUc/edit">200312 Medical Practitioner Interview - New England</a>)</p>
+
+<p>A COVID patient usually arrives at the hospital when they develop significant shortness of breath, on day 9-10 of the illness. At this point, it is decided whether the patient needs further testing, inpatient hospitalization, or ICU care. In the early stages of the disease, the patient is given predominantly <a href="https://www.wikiwand.com/en/Symptomatic_treatment">symptom based treatment</a> and supportive care, for example medications to reduce fever and cough and adequate hydration. Non-critical inpatient hospitalizations for respiratory failure are currently given oxygen via nasal cannula, with faces covered in N95 masks to prevent aerosolized virus spread from exhalation (non-invasive oxygenation methods such as CPAP and BiPAP are avoided due to severe <a href="https://www.ncbi.nlm.nih.gov/pubmed/32096367">risk of aerosolization of virus particles</a>).</p>
+
+<p>Patients are determined to be critical if their oxygen requirements increase (<a href="https://www.mayoclinic.org/symptoms/hypoxemia/basics/definition/sym-20050930">hypoxemia</a>) and they develop severe shortness of breath. In critical patients, significant deterioration in oxygenation abilities occurs within 24 hours. For the vast majority of illnesses, this results in hypoxemic respiratory failure (also known as <a href="https://www.healthline.com/health/acute-respiratory-failure">acute respiratory failure</a>), requiring the initiation of invasive <a href="https://www.wikiwand.com/en/Mechanical_ventilation">mechanical ventilation</a>. A minority of patients develop cardiac failure due to shock, usually from overwhelming <a href="https://www.mayoclinic.org/diseases-conditions/sepsis/symptoms-causes/syc-20351214">sepsis</a>.</p>
+
+<p>The hypoxemic respiratory failure associated with COVID-19 is <a href="https://www.mayoclinic.org/diseases-conditions/ards/symptoms-causes/syc-20355576">acute respiratory distress syndrome (ARDS)</a>. This involves fluid in the <a href="https://www.wikiwand.com/en/Interstitium">interstitium</a> of the lungs, that is not from heart failure (<a href="https://www.ncbi.nlm.nih.gov/books/NBK542230/">noncardiogenic pulmonary edema</a>), and leads to increased stiffness in the lungs (reduced lung compliance), resulting in difficulty in ventilation. These patients respond favorably to aggressive ARDS treatment, including <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6026253/">proning</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091333/">high positive end-expiratory pressure ventilation (high PEEP ventilation)</a>. Most patients are treated early with <strong>antibiotics</strong> for suspected <a href="https://medlineplus.gov/ency/article/002300.htm">secondary infections</a> (an infection acquired at the hospital), but this is discontinued based on clinical status (how the patient is doing). A minority of patients develop <a href="https://www.wikiwand.com/en/Septic_shock">septic shock</a> and require <a href="https://www.everydayhealth.com/vasopressors/guide/">vasopressors</a> to increase blood pressure. A subset of patients also develop heart failure.</p>
+
+<p>The time course of COVID-19 patients is extremely variable, but patient one from Italy was hospitalized from 02/21 to 03/11, a period of 19 days. The chart below (<a href="https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930566-3">Lancet paper on Wuhan severe case mortality</a>) offers guidance for development of symptoms for survivors and non-survivors.</p>
+
+<p><strong>Visualization of Symptoms of COVID-19 Over Time, ~5 Days After Exposure</strong></p>
+
+<p><img src="https://lh5.googleusercontent.com/q78ktsruHihMLdyJ3dJjt16Py55V3kipacYHpArmtPGa3XkF72yLkPaA9-RkJmcPR3YIyHxnyzTnQkCW6sS5JIX9JLqZ_fwkt9eSddW0VfLWE09lOx0i2SqfQd3gsPm0GgIEpu8k" alt="https://lh5.googleusercontent.com/q78ktsruHihMLdyJ3dJjt16Py55V3kipacYHpArmtPGa3XkF72yLkPaA9-RkJmcPR3YIyHxnyzTnQkCW6sS5JIX9JLqZ_fwkt9eSddW0VfLWE09lOx0i2SqfQd3gsPm0GgIEpu8k" /></p>
+
+<p>While patients are hospitalized but in non-critical condition, healthcare workers typically wear N95 masks, gowns, and gloves and sometimes face masks to prevent undue droplet-based virus contact. When patients become critical, they are moved to negative-pressure rooms in ICUs, and healthcare workers need to wear positive-pressure CAPR suits with purified regulators, because the risk of aerosolized virus is very high during intubation and critical care.</p>
+
+<h2 id="a-note-about-safety-and-liability">A Note About Safety and Liability</h2>
+
+<p>There are engineering and manufacturing risks around medical devices. Though the FDA has issued Emergency Use Authorizations (EUA) (<a href="https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#coronavirus2019">Coronavirus Disease 2019 (COVID-19) Emergency Use Authorizations for Medical Devices</a>, FDA), to avoid doing more harm than good, it is recommended to attempt to the best of your ability and circumstances to follow regulations, which may seem cumbersome, but exist for good reason.</p>
+
+<p>Regulatory standards that apply to the supplies and devices in question:</p>
+
+<p><a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=4a139a0c2e75564b0dd819dc12940dc5&amp;mc=true&amp;node=pt21.8.820&amp;rgn=div5">eCFR: QUALITY SYSTEM REGULATION</a> (especially Identification and Traceability, Production and Process Controls, and Labeling)</p>
+
+<p><a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=354d8b0fcc9bacaf08ef6e9d25250208&amp;mc=true&amp;node=pt21.8.880&amp;rgn=div5">eCFR: GENERAL HOSPITAL AND PERSONAL USE DEVICES</a></p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.fda.gov/media/97633/download?fbclid=IwAR2KaL1WoiluQ5eDxRwXWCAPzRD7rZ4UOsYGZeAo1wgWUKk8pGiJEaXxOOM">Technical Considerations for Additive Manufactured Medical Devices</a> (FDA)</p>
+
+<p><a href="https://www.fda.gov/medical-devices/regulatory-controls/general-controls-medical-devices">General Controls for Medical Devices</a> (FDA)</p>
+
+<p><a href="https://www.fda.gov/media/113230/download">Recommended Content and Format of Non-Clinical Bench Performance Testing Information</a> (FDA)</p>
+
+<h2 id="good-samaritan-laws-in-the-united-states">Good Samaritan Laws in the United States</h2>
+
+<p>In the United States, Good Samaritan laws offer legal protection from civil lawsuits to people who voluntarily provide reasonable aid to those who are injured, ill, in danger, or otherwise incapacitated. A claim of negligent care can also be raised if the injuries or illness were made worse by the volunteer’s negligence. Laws generally do not exempt a Good Samaritan who acts in a willful, wanton or reckless manner in providing care, advice, or assistance.</p>
+
+<p>We are providing you with the specifications you will need to manufacture items which are much-needed during this pandemic; however, you are responsible for your creations, so please practice due diligence (the care that a reasonable person exercises to avoid harm to other persons or their property). We want your contributions to help, not harm!</p>
+
+<p>If you are familiar with similar laws in other countries, please reach out to us with relevant references.</p>
+
+<p><strong>References:</strong> <a href="https://definitions.uslegal.com/g/good-samaritans/">Good Samaritans</a> (US Legal)</p>
+
+<h2 id="social-action-responsibility-and-heroism-sarah-act-in-the-united-kingdom">Social Action, Responsibility and Heroism (SARAH) Act in the United Kingdom</h2>
+
+<p>Effective in England and Wales, the Social Action, Responsibility and Heroism (SARAH) Act seeks to provide protection to individuals who act voluntarily to provide reasonable aid to those who are injured, ill, in danger, or otherwise incapacitated. The Bill contains language to make clear its overarching purpose: to “take a range of measures to encourage volunteering and involvement in social action”.</p>
+
+<h2 id="access-to-medical-treatments-innovation-act-2016-the-united-kingdom">Access to Medical Treatments (Innovation) Act 2016, the United Kingdom</h2>
+
+<p>This Bill, applicable to England and Wales, was enacted “…to promote access to innovative medical treatments (including treatments consisting in the off-label use of medicines or the use of unlicensed medicines) by providing for (a) the establishment of a database of innovative medical treatments, and (b) access to information contained in the database.”</p>
+
+<p>We are providing you with the specifications you will need to manufacture items which are much-needed during this pandemic; however, you are responsible for your creations, so please practice due diligence (the care that a reasonable person exercises to avoid harm to other persons or their property). We want your contributions to help, not harm!</p>
+
+<p>If you are familiar with similar laws in other countries, please reach out to us with relevant references.</p>
+
+<p><strong>References:</strong> <a href="https://services.parliament.uk/bills/2014-15/socialactionresponsibilityandheroism.html">SARAH Act</a>; <a href="https://www.legislation.gov.uk/ukpga/2016/9/contents">Access to Medical Treatments (Innovation) Act 2016</a> (UK Legal)</p>
+
+<h1 id="design-manufacturing--engineering-projects">Design, Manufacturing, &amp; Engineering Projects</h1>
+
+<p>PPE (Personal Protective Equipment) is critical to the protection of healthcare workers, acting as a barrier and therefore controlling exposure to COVID-19. Some of the most fundamental items comprising PPE include gloves, goggles, surgical masks, respirators, protective gowns, and disinfectant. <strong>Many of these crucial PPE items are now in short supply due to interruptions in the supply chain, and also from the massive demand as the number of patients infected continues to grow exponentially.</strong> </p>
+
+<p>Numerous medical devices are required to treat the COVID-19 patient and will also fall into short supply (e.g. ventilators). Shortages of necessary PPE and medical devices will continue to pose a significant problem for healthcare workers and patients around the globe. Anyone with production capabilities should carefully consider the manufacture of known designs and development of new designs for the following items.</p>
+
+<p><em>Each of the following links directs to a resource page with more detailed information, including designs that have been vetted by a team of medical professionals. Please note that this review process is not equivalent to any government or regulatory review process</em>.</p>
+
+<!-- Name,Display Name,Target Audience,KD Category ID,EOL,Type,Dev Backup Doc Link,web-name,PPE Designs List,Med. Supply Category Caveats -->
+<h2 class="text-center">Categories List</h2>
+<ul class="d-flex flex-column list-unstyled ml-4">
+  
+
+  
+    <h3 class="mt-3">PPE</h3>
+    
+    <li>
+      <a href="examination-gloves" class="osms-link">
+        <span>
+          Examination Gloves
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="face-masks" class="osms-link">
+        <span>
+          Face Masks
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="face-shields-ffp" class="osms-link">
+        <span>
+          Face Shields (FFP)
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="goggles" class="osms-link">
+        <span>
+          Goggles / Masks
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="gowns" class="osms-link">
+        <span>
+          Gowns
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="n95-respirators" class="osms-link">
+        <span>
+          N95 Respirators
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="powered-air-purifying-respirators" class="osms-link">
+        <span>
+          Powered Air Purifying Respirators (PAPR/CAPR)
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="suits" class="osms-link">
+        <span>
+          Suits
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="surgical-face-masks" class="osms-link">
+        <span>
+          Surgical Face Masks
+        </span>
+      </a>
+    </li>
+    
+  
+    <h3 class="mt-3">Supply</h3>
+    
+    <li>
+      <a href="flow-splitters" class="osms-link">
+        <span>
+          Flow-Splitters for Oxygen Supply
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="hand-sanitizer" class="osms-link">
+        <span>
+          Hand Sanitizer
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="nasal-cannulas" class="osms-link">
+        <span>
+          Nasal Cannulas
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="nasal-catheters" class="osms-link">
+        <span>
+          Catheters
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="oxygen-masks" class="osms-link">
+        <span>
+          Oxygen Masks
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="thorpe-tube-flowmeter" class="osms-link">
+        <span>
+          Thorpe Tube Flowmeter
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="venturi-masks" class="osms-link">
+        <span>
+          Venturi Masks (High Flow)
+        </span>
+      </a>
+    </li>
+    
+  
+    <h3 class="mt-3">Device</h3>
+    
+    <li>
+      <a href="hospital-beds" class="osms-link">
+        <span>
+          Hospital Beds
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="infusion-pumps" class="osms-link">
+        <span>
+          Infusion Pumps
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="laryngoscopes" class="osms-link">
+        <span>
+          Laryngoscopes
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="negative-pressure-rooms" class="osms-link">
+        <span>
+          Negative Pressure Rooms
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="non-heated-humidifiers" class="osms-link">
+        <span>
+          Non-Heated Humidifier
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="non-contact-thermometers" class="osms-link">
+        <span>
+          Non-Contact Thermometers
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="oxygen-concentrators" class="osms-link">
+        <span>
+          Oxygen Concentrators
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="pulse-oximeter" class="osms-link">
+        <span>
+          Pulse Oximeters
+        </span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="ventilators" class="osms-link">
+        <span>
+          Ventilator Machines
+        </span>
+      </a>
+    </li>
+    
+  
+</ul>
+
+<h3 id="supplies">Supplies</h3>
+
+<p><a href="https://docs.google.com/document/d/1RSfDK7nwD-xN2_1-GhC9Aa2XwRHSDfJrz9bYgPvKlZQ/edit?usp=sharing">Hand Sanitizer</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1VIH-5gqq27uh65tS1Qx8pdxGloz0wMwdaX0xGv0Be_0/edit#heading=h.91f2cu7o3qvn">Bias Tape Makers</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1stW97lLMrC-QdmIoX8QE4isgckkBYXOWA8QT8A9iJ7E/edit#heading=h.9085a05p15oh">Mask Helpers</a> BROKEN</p>
+
+<h3 id="ppe">PPE</h3>
+
+<p><a href="https://docs.google.com/document/d/1LrBr-YlhKdu2caqhDlGGMW0fS2XA9NJ-U5TZ_bsq5Uk/edit?usp=sharing">N95 Respirators</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1IyCp7OSDz7ddE8hG_YOcXFV_-sHU5aPiw-OCR_F5AAY/edit?usp=sharing">Face Masks</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/19gAn6dDztL2B1JIJh5FCh7GpWZPoe6PPJjF_zlCkvxs/edit?usp=sharing">Goggles</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1I5YRGEPju7q80W-OQzh6pAklAHB90uzmX6GhVuQRjDw/edit?usp=sharing">Examination Gloves</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1NfRshBAbiYtGQW-8XokKOI4B_EiN0vQ3iKktQEf-skg/edit?usp=sharing">Gowns</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/14GyjfQHCUBYXt14rdb1bHVk-JzVFBmgbmjx1ar00lq4/edit?usp=sharing">Face Shields</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1UEPutxwxQ4izZS1xRbyQ8qAKsyY-08GOKC3yGtQUjls/edit?usp=sharing">Scrubs</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1YLfSUImiIxqAsAk0JhPSP6TmeJfaUA2ky6U2sli580Q/edit?usp=sharing">Booties</a> BROKEN</p>
+
+<h3 id="medical-supplies">Medical Supplies</h3>
+
+<p><a href="https://docs.google.com/document/d/1uzdhnoGgy8WCw2P8WYYk5VAFB3jx2mlcagSM_DETsIQ/edit?usp=sharing">Nasal Cannulas</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1xv_ODCRFw5Os0gK4ur0cdoTBl66qBmycryCVc82TXGQ/edit?usp=sharing">Nasal Catheters</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1F81-m1TnZ3s2u6tt7aK8UP4Jk5xwP0-lLQGXDUO9Pf4/edit#">Flow-Splitters for Oxygen Supply</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1lnadWOj2Xz3toqa3yArVgcY22eweG-wbmsVqZDcNO_s/edit?usp=sharing">Thorpe Tube Flowmeter</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1Zs1blaf4hg1PuPMAep5xYnsfywuAqcEcRVc-1XNEAFw/edit?usp=sharing">Oxygen Masks</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1eIdD96gCq0crfAvhMtBm-XBRLbq6QVOQSXl8OA0suP4/edit?usp=sharing">Venturi Masks</a> BROKEN</p>
+
+<h3 id="medical-devices">Medical Devices</h3>
+
+<p><a href="https://docs.google.com/document/d/1Gk4rVSDihSm-6-mmZCIQqkL3adTGHHiEAPZB3K3ordQ/edit?usp=sharing">Negative Pressure Rooms</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1q9jCFN3vqWKUv0GVVvhGy3REEzp0yZ9BXzP5jYGZX9k/edit?usp=sharing">Non-Contact Thermometers</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1KJg1pGrxl2tb5xCmr1YRxnNO8Sct_2kvq5ajWvrBi5c/edit?usp=sharing">Ventilator Machines</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1fTHha2dXmwIKSuKm1xINKB5xAfycsPUiumarbRqPncg/edit?usp=sharing">Hospital Beds</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1XQ4LzG32ZpfzoontPaB5Mt_3LGtatJWReP7n1lVeeFo/edit?usp=sharing">Oxygen Concentrators</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/19h_4C4aQQ9ljGtZEuAEbd7aRbpOfBDNNrLRpLbNh94s/edit?usp=sharing">Pulse Oximeters</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1EeMqbXb1O3JjWPzbeOj1-hOYfMc9D94fee2leOYn7Mc/edit?usp=sharing">Non-Heated Humidifier</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1wdXsRfzab2tr3iWBylV7GS5jsWqaYPBRpF1NY4KTI5s/edit?usp=sharing">Laryngoscopes</a> BROKEN</p>
+
+<p><a href="https://docs.google.com/document/d/1vtfZRlm-I9mUVWwtA6S8sK7UZE6OwrdkAky2w_d9b-o/edit?usp=sharing">Infusion Pumps</a> DA FUCK BROKEN</p>
+
+<h1 id="manufacturing-processes">Manufacturing Processes</h1>
+
+<p><img src="/assets/img/charts/OSCMS Items vs. Manufacturing v1.1.png" alt="manufacturing processes chart" /></p>
+
+<p><a href="https://drive.google.com/file/d/1nE6GyWV_NFGII6-aVvukL9uCHAVUovuj/view">Download PDF</a></p>
+
+<h1 id="faq">FAQ</h1>
+
+<h2 id="how-can-i-help">How can I help?</h2>
+
+<p>Your first job is to educate yourself and your community on what COVID-19 is and how it is treated, and understand the entire supply chain problem at hand, before you start designing or building or ideating anything.</p>
+
+<p>Your second job is to continue to grow this group. The goal of this Facebook group is to be a discussion forum and megaphone to the world once safe open source medical supply solutions are found, and it needs to be as large as possible to reach everyone who will be affected.</p>
+
+<p>Your third job is to go out and find as many existing solutions as possible to the supply problems we’ve highlighted, and focus your design work on the gaps that haven’t been solved.</p>
+
+<p>YOUR FOURTH AND POSSIBLY MOST IMPORTANT JOB is to form effective local response networks around your primary and secondary care systems. Read the document below. Form cohesive local groups; don’t splinter, don’t silo. Your hospitals will need your help very soon, if they don’t already. Your grocery stores, homeless shelters, nursing homes, lifetime care facilities, public transit workers, garbage collectors, and the like will need your help now. <strong><a href="https://oscms.box.com/s/zh0aynd8hflxkfdaucs14ifs05z8d8dn">Get prepared with effective strategies from our Local Response Guide.</a></strong></p>
+
+<h2 id="how-can-i-find-out-about-local-response-efforts-near-me--how-can-i-start-a-local-response-group">How can I find out about local response efforts near me? / How can I start a local response group?</h2>
+
+<p>We are thrilled to see an upswell in local organizing efforts to fill the gaps in medical supply chain disruptions. Dozens of Open Source COVID-19 Medical Supplies (OSCMS) regional Facebook groups are cropping up, and are gathering volunteers to share information, best practices, local needs, supplies and manufacturers. You can use our <a href="http://shorturl.at/iBCP5">roster of local response groups</a> to find a group near you. You can also use the “search” function in this group to find others in your location. (Begin with searching for your city, then your local area/county name, then your state/principality name, and then your country name.) When searching for other groups, try using the keywords “Open Source COVID-19 Medical Supplies” or “OSCMS” and your location name.</p>
+
+<p>If there is not a local response group near you and you are interested in starting one, please <a href="https://oscms.box.com/s/zh0aynd8hflxkfdaucs14ifs05z8d8dn">read our local response guide</a> to learn more about what is involved and <a href="https://forms.gle/8wouvvARZ2MHdG7C9">register your group with OSCMS</a>.</p>
+
+<h2 id="how-can-i-find-hospitals-that-need-help-in-my-area">How can I find hospitals that need help in my area?</h2>
+
+<p>If you are primarily interested in sewing face masks for a local hospital, visit <a href="https://www.makemasks2020.org/volunteer">Make Masks</a> to get started. If you have commercially manufactured PPE available, we recommend using a matching resource from the list below to find locations near you that are requesting PPE donations.</p>
+
+<h3 id="international">INTERNATIONAL</h3>
+
+<ul>
+  <li><a href="https://covid19masks.info/webapps/f?p=2222:1">COVID-19 Masks</a>: international PPE maker-to-hospital database</li>
+</ul>
+
+<h3 id="usa">USA</h3>
+
+<ul>
+  <li><a href="https://getusppe.org/">Get Us PPE</a> - makers- and manufacturers-to-hospitals</li>
+  <li><a href="https://www.mask-match.com/">Mask Match</a> - individuals-to-hospitals via mask match</li>
+  <li><a href="https://www.projectn95.org/">Project N95</a> - medical equipment and supply exchange</li>
+  <li><a href="https://ppelink.wordpress.com/">PPELink</a> - research labs-to-hospitals donation</li>
+  <li><a href="https://www.makemasks2020.org/volunteer">Make Masks</a> - a grassroots collective providing relief by mobilizing sewists, makers, and organizers to deliver masks to those affected by PPE shortages.</li>
+</ul>
+
+<h3 id="for-other-maker-built-supplies-we-recommend-searching-for-organizers-in-your-region-before-reaching-out-to-hospitals-directly-we-need-to-ensure-that-hospitals-are-not-overwhelmed-with-excessive-phone-calls-about-donations">For other maker-built supplies, we recommend searching for organizers in your region before reaching out to hospitals directly. We need to ensure that hospitals are not overwhelmed with excessive phone calls about donations.</h3>
+
+<h2 id="can-i-make-something-and-bring-it-directly-to-a-hospital-to-be-used">Can I make something and bring it directly to a hospital to be used?</h2>
+
+<p>It varies, but usually, no. For some PPE items (cloth face masks, face shields, head covers, etc.) hospitals may already be accepting donations, but this is not universal. We recommend checking with local organizations. You can also register as a Maker at <a href="http://www.getusppe.org/makers">www.GetUsPPE.org/makers</a>. For other supplies, particularly for devices like ventilators, there is not yet a clear pathway for getting items from makers into hospitals. There are a number of safety concerns with medical devices that need to be addressed. Please do not show up at a hospital unannounced with donations.</p>
+
+<h2 id="how-can-i-get-my-plans-reviewed">How can I get my plans reviewed?</h2>
+
+<p>First evaluate whether your design is truly a new design or a modification of an existing design. Search the group and all of the relevant documentation to see if others have posted similar items. If your design is novel or a substantive modification of another design, please submit the design at <a href="https://bit.ly/2xsjWpO">https://bit.ly/2xsjWpO</a> so our technical review team can assess it. Note that this may take some time due to the sheer volume of new designs we are receiving. Thank you for your patience as we continue to refine this workflow!</p>
+
+<h3 id="why-not-make-ventilators">Why (not) make ventilators?</h3>
+
+<ul>
+  <li>Acute Respiratory Distress Syndrome (ARDS), in which breathing is impaired by fluid buildup in the lungs, is one of the most common severe complications of COVID-19. Patients with ARDS frequently require mechanical ventilation to survive. According to the American Hospital Association, <a href="https://abcnews.go.com/Health/demand-ventilators-spikes-coronavirus-looms/story?id=69597233">it is possible that up to 900,000 people in the United States may need mechanical ventilation during the COVID-19 pandemic. The Society of Critical Care Medicine estimates that approximately 200,000 are currently available, though exact numbers are not known</a>. <strong>If ventilator production could be quickly increased, this would make it possible to care for more critically ill patients.</strong></li>
+  <li>Mechanical ventilation requires careful supervision by trained respiratory therapists in order to avoid complications, <a href="https://www.uptodate.com/contents/physiologic-and-pathophysiologic-consequences-of-mechanical-ventilation">including permanent lung damage</a>. <strong>Without sufficient medical professionals to use them, adding to the supply of ventilators will not improve the treatment of COVID-19 patients.</strong></li>
+  <li>This does not mean that no one should be working to increase ventilator supply, but it does mean that other supplies (e.g. PPE) may be of more direct use to those who are treating patients. <strong>If you do not have knowledge or experience of mechanical ventilation and are not working with someone who does, you may be better off focusing on other projects.</strong></li>
+</ul>
+
+<h3 id="why-not-3d-print-mass-production-etc">Why (not) 3D print (mass production, etc)?</h3>
+
+<p>3D printing can be an efficient method of mass-producing needed supplies to prevent shortages. In one example of successful use of 3D printing, <a href="https://www.fastcompany.com/90477940/these-good-samaritans-with-a-3d-printer-are-saving-lives-by-making-new-respirator-valves-for-free">respirator valves</a> are already being 3D printed in response to the increased need for mechanical ventilation in Italian hospitals. <a href="https://www.machinedesign.com/3d-printing-cad/article/21838078/the-challenge-of-3d-printing-medical-devices">However, medical devices pose unique problems that require additional precautions in 3D printing</a>.</p>
+
+<h1 id="fda-update-4520-faqs-on-3d-printing-of-medical-devices-and-accessories-during-covid-19"><strong>FDA UPDATE [4/5/20]: <a href="https://www.fda.gov/medical-devices/3d-printing-medical-devices/faqs-3d-printing-medical-devices-accessories-components-and-parts-during-covid-19-pandemic">FAQs on 3D Printing of Medical Devices and Accessories during COVID-19</a></strong></h1>
+
+<h3 id="are-3d-printed-parts-sterile">Are 3D printed parts sterile?</h3>
+
+<p>Due to the way in which they are manufactured, 3D printed materials are frequently more porous than typical medical device materials, allowing them to harbor microbes if they are not carefully sterilized. <strong><a href="https://blog.gotopac.com/2017/05/22/sterile-materials-and-outcomes-for-3d-printing-sterile-parts/">Medical sterilization techniques require heat, radiation, and chemical sterilization processes. Any 3D printed device made for use with patients must be able to withstand repeated exposure to these processes.</a></strong> Most common 3D printing materials will warp, melt, or lose tensile strength when exposed to medical sterilization; see previous link for a list of materials that can be sterilized. There is some <a href="https://blog.gotopac.com/2017/05/22/sterile-materials-and-outcomes-for-3d-printing-sterile-parts/">sterile 3D manufacturing</a> but it is rare, mostly proprietary, and usually already located in a hospital or research lab. Not usually conducive to mass-scale production.</p>
+
+<h2 id="what-about-using-cpap-or-bipap-machines">What about using CPAP or BiPAP machines?</h2>
+
+<p>CPAP (continuous positive airway pressure) is a form of non-invasive ventilation in which mild, consistent air pressure is applied through a mask to keep the airway open and maintain oxygenation. BiPAP (bilevel positive airway pressure) is similar to CPAP, but alternates periods of higher and lower pressure to make it easier for the patient to exhale. While these are being used in the treatment of patients experiencing respiratory distress, <strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/32096367">these methods have been discouraged for the treatment of COVID-19 patients</a></strong> <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30084-9/fulltext">due to the risk of aerosolizing the virus and thus increasing risk of infection to other patients and caregivers; the risk can be mitigated, but not eliminated, with optimal mask fit.</a> <strong>**</strong>In addition, <a href="https://link.springer.com/article/10.1186/cc8883">these approaches are unlikely to prevent the need for mechanical ventilation, though they may postpone it</a>. Recent <a href="https://www.fda.gov/media/136318/download">updates from the FDA</a> indicate that manufacturers of CPAP or BiPAP machines may submit proposed modifications to be considered for Emergency Use Authorization. This requires the modifications be tested, documented, and formally submitted to the FDA for consideration. These devices would be used to support respiratory therapy but would not be used in lieu of ventilators. Modifications to these devices would be intended to reduce the risk of aerosolizing the virus.</p>
+
+<h2 id="what-about-building-a-negative-pressure-ventilator">What about building a negative pressure ventilator?</h2>
+
+<p>A negative pressure ventilator (sometimes colloquially called an “iron lung”) is a mechanical ventilator that acts by intermittently lowering the pressure around the patient’s abdomen to less than atmospheric pressure, mimicking the natural function of the muscles and diaphragm to allow the patient to take in air. This can be accomplished with either a large tank surrounding the patient’s body, or a smaller jacket-like device worn by the patient. These have been widely used for breathing difficulties caused by neuromuscular disorders, but <strong>their safety and effectiveness in pneumonia and ARDS is poorly studied</strong>. <a href="https://adc.bmj.com/content/77/5/454">In addition, most forms restrict access to the patient’s body</a>, and most medical professionals are not familiar with their use.</p>
+
+<h2 id="is-there-a-slackjirawikidiscord-for-this-group">Is there a Slack/Jira/Wiki/Discord for this group?</h2>
+
+<p>We have a team of over 180 volunteers from all over the globe who are collaborating on the Slack channel that supervises this group. We have moderators, administrators, medical professionals, transcriptionists, engineers, communications specialists, marketing teams, philanthropists, scientists, points of contact for makerspaces and globally distributed manufacturers, and more. The explicit goal of our group is to not design anything ourselves. We believe there are tens of thousands of engineers all over the world already working on the problems we present, and our job is to vet, catalog, present, and soon act upon those solutions. If you would like to join this narrowly scoped and tightly focused team, please let us know in the comments.</p>
+
+<h2 id="will-i-get-sued-for-making-things">Will I get sued for making things?</h2>
+
+<p>In the United States, Good Samaritan laws offer legal protection from civil lawsuits to people who voluntarily provide reasonable aid to those who are injured, ill, in danger, or otherwise incapacitated. We are providing you with the specifications you will need to manufacture items which are much-needed during this pandemic; however, you are responsible for your creations, so please practice due diligence. We recommend reading <a href="https://docs.google.com/document/d/16ueR28p-oZb_uPKXFzuxK-X62rgYXlGETNOLitoSf6s/edit?usp=sharing">OSCMS: 3D Printing - Getting Started, Safety, and Designs</a><strong>.</strong></p>
+
+<h2 id="are-home-sewn-masks-safe">Are home-sewn masks safe?</h2>
+
+<p>They are safe by being better than nothing. Here is a design that has been approved by our medical experts: <a href="http://project-cloth-masks.com/">http://project-cloth-masks.com</a>. You can find other vetted designs for masks and other PPE <a href="https://docs.google.com/document/d/1TKkGWLQcFaQYyN9NIyd8gkdkgCkhHmWns3ZEcIbOJsQ/edit">here</a>.</p>
+
+<p>In a <a href="https://bmjopen.bmj.com/content/5/4/e006577">randomized trial</a>, it was found that cloth face masks were associated with higher rates of respiratory infection than wearing medical masks (N95 respirators); however, this study did not test whether cloth masks were better than no masks at all. The results of this study have been widely misinterpreted. Cloth face masks are an appropriate choice for members of the general public, for healthcare workers to wear over other types of mask, or as an emergency alternative when no other PPE is available.</p>
+
+<h2 id="i-want-to-sew-face-masks-what-mask-should-i-makewhat-materials-should-i-usehow-do-i-find-a-hospital-to-donate-to">I want to sew face masks. What mask should I make/what materials should I use/how do I find a hospital to donate to?</h2>
+
+<p>We have created a <a href="https://docs.google.com/document/d/e/2PACX-1vQVnocKNgEPNSC4DRp0QV-kKfSrPmVMsczMuq1kcIUxNA8DmvG5PS5S0e8zuPRFNe0VnlGzd6segMsl/pub">guide specifically for sewists/crafters</a>. Please read the information on this page. Additionally, if you are located in the United States, you should visit the <a href="https://www.facebook.com/groups/reliefcraftersofamerica/">Relief Crafters of America</a> page. They have already established regional hubs to facilitate mask distribution. We have also created a <a href="https://docs.google.com/document/d/e/2PACX-1vRa7v81MSjhwsa9bTV_v2c0oGzRtfmofi37SwAuBeczqDOO_XfoMP7UWMfj7eh8BsibX8uNWv-jrxKi/pub">guide for organizing cloth mask donations</a>. Due to the size of this group, we cannot approve individual posts about coordinating donations of home-made face masks. We recommend reading <a href="https://docs.google.com/document/d/1TKkGWLQcFaQYyN9NIyd8gkdkgCkhHmWns3ZEcIbOJsQ/edit?usp=sharing">this information about face masks</a> before proceeding.</p>
+
+<h1 id="glossary">Glossary</h1>
+
+<p><em>Many of the medical terms pertaining to COVID-19 may be unfamiliar to you. We’re here to help.</em></p>
+
+<h3 id="acute-respiratory-distress-syndrome-ards">Acute Respiratory Distress Syndrome (ARDS)</h3>
+
+<p>A condition in which fluid collects in the alveoli (air sacs) within the lungs. Oxygen capacity is severely reduced and patients may suffer organ damage. ARDS occurs in those who are critically ill. These patients require mechanical ventilation.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="http://www.ardsnet.org/files/ventilator_protocol_2008-07.pdf">ARDSnet</a> (NIH-NHLBI ARDS Network)</p>
+
+<h3 id="barotrauma">Barotrauma</h3>
+
+<p>Barotrauma refers to injuries caused by increased air or water pressure, such as during airplane flights or scuba diving. In the case of mechanical ventilation, alveoli (air sacs) in the lungs may be ruptured or scarred due to high air pressure in the lungs.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.health.harvard.edu/a_to_z/barotrauma-a-to-z">Barotrauma</a> (Havard)</p>
+
+<h3 id="fio2">FiO2</h3>
+
+<p>“Fraction of inspired oxygen” is the percentage of oxygen in the air mixture delivered to the patient.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/books/NBK448186/?fbclid=IwAR0O5rwiWrf_9qixGk1Qx6LPEiLIX0tGoR3rsu1ZzcCaRXn9MLAglpdK0Nw">Ventilator Management</a> (NIH)</p>
+
+<h3 id="flow-ventilation">Flow (Ventilation)</h3>
+
+<p>The rate, in liters per minute, that the ventilator delivers breaths.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/books/NBK448186/?fbclid=IwAR0O5rwiWrf_9qixGk1Qx6LPEiLIX0tGoR3rsu1ZzcCaRXn9MLAglpdK0Nw">Ventilator Management</a> (NIH)</p>
+
+<h3 id="hypoxia">Hypoxia</h3>
+
+<p>Not enough oxygen.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Hypoxia_(medical)">Hypoxia</a> (Wikipedia)</p>
+
+<h3 id="hypercapnia">Hypercapnia</h3>
+
+<p>Too much carbon dioxide.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Hypercapnia">Hypercapnia</a> (Wikipedia)</p>
+
+<h3 id="intubation">Intubation</h3>
+
+<p>A procedure in which a tube is placed into the airway. This is performed so that a patient can be placed on a ventilator to assist with breathing.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Tracheal_intubation">Tracheal Intubation</a> (Wikipedia)</p>
+
+<h3 id="atelectasis">Atelectasis</h3>
+
+<p>Complete or partial collapse of the lobe, or part of the lobe, of the lung. It occurs when the alveoli (air sacs) become deflated or filled with fluid.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.mayoclinic.org/diseases-conditions/atelectasis/symptoms-causes/syc-20369684">Atelectasis</a> (Mayo Clinic)</p>
+
+<h3 id="negative-pressure-ventilation">Negative Pressure Ventilation</h3>
+
+<p>Mechanical ventilation in which negative pressure is generated on the outside of the chest and transmitted to the interior to expand the lungs and allow air to flow in (e.g. “Iron Lung”).</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.atsjournals.org/doi/full/10.1164/rccm.200707-1004OC">Negative Pressure Ventilation</a> <em>**</em>(ATS Journals)</p>
+
+<h3 id="oxygenation">Oxygenation</h3>
+
+<p>The process of treating a patient with oxygen. This can be accomplished by increasing the <strong>fraction of inspired oxygen</strong> (FiO) or the <strong>positive end-expiratory pressure</strong> (PEEP).</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/books/NBK448186/?fbclid=IwAR0O5rwiWrf_9qixGk1Qx6LPEiLIX0tGoR3rsu1ZzcCaRXn9MLAglpdK0Nw">Ventilator Management</a> (NIH)</p>
+
+<h3 id="peak-pressure">Peak Pressure</h3>
+
+<p>The highest level of pressure achieved during inspiration when air is being pushed into the lungs. It increases with airway resistance.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Peak_inspiratory_pressure">Peak inspiratory pressure</a> (Wikipedia)</p>
+
+<h3 id="plateau-pressure">Plateau Pressure</h3>
+
+<p>The static pressure achieved at the end of a full inspiration, and is a measure of alveolar pressure and lung compliance. Normal plateau pressure is below 30 cm H20 (<strong>.43 psi</strong>), and higher pressure can generate <a href="https://www.health.harvard.edu/a_to_z/barotrauma-a-to-z">barotrauma</a>.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Plateau_pressure">Plateau pressure</a> (Wikipedia)</p>
+
+<h3 id="pneumonia">Pneumonia</h3>
+
+<p>An infection that inflames the alveoli (air sacs) in one or both lungs, which may fill with fluid or pus. The infection can be life-threatening to anyone, but particularly to infants, children, and people over 65. Symptoms include cough with phlegm or pus, fever, chills, and difficulty breathing. It can occur secondary to a primary infection.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.lung.org/lung-health-and-diseases/lung-disease-lookup/pneumonia/symptoms-and-diagnosis.html">Pneumonia Symptoms and Diagnosis</a> <em>**</em>(American Lung Association)</p>
+
+<h3 id="positive-end-expiratory-pressure-peep">Positive End-Expiratory Pressure (PEEP)</h3>
+
+<p>The pressure in the lungs, above atmospheric pressure (the pressure outside of the body), that exists at the end of expiration.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/books/NBK448186/?fbclid=IwAR0O5rwiWrf_9qixGk1Qx6LPEiLIX0tGoR3rsu1ZzcCaRXn9MLAglpdK0Nw">Ventilator Management</a> (NIH)</p>
+
+<h3 id="sepsis">Sepsis</h3>
+
+<p>Sepsis is a potentially life-threatening condition caused by the body’s response to an infection. This can cause a cascade of changes that damage multiple organ systems, leading them to fail, sometimes even resulting in death. Symptoms include fever, difficulty breathing, low blood pressure, fast heart rate, and mental confusion. Treatment includes antibiotics and intravenous fluids.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Sepsis">Sepsis</a> (Wikipedia)</p>
+
+<h3 id="septic-shock">Septic Shock</h3>
+
+<p>A severe and potentially fatal condition that occurs when sepsis leads to life-threatening low blood pressure and abnormalities in cellular metabolism.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.merckmanuals.com/professional/critical-care-medicine/sepsis-and-septic-shock/sepsis-and-septic-shock">Sepsis and Septic Shock - Critical Care Medicine</a> (Merck Manual)</p>
+
+<h3 id="severe-acute-respiratory-infection-sari">Severe Acute Respiratory Infection (SARI)</h3>
+
+<p>Defined as an <strong>acute respiratory</strong> illness of recent onset (within seven days) manifested by fever (≥38°C/100.4F), cough and shortness of breath or difficulty in breathing requiring hospitalization</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5433280/">Viruses Causing SARI</a> (NIH)</p>
+
+<h3 id="tachypnea">Tachypnea</h3>
+
+<p>Rapid breathing.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Tachypnea">Tachypnea</a> (Wikipedia)</p>
+
+<h3 id="tidal-volume">Tidal Volume</h3>
+
+<p>Volume of air moved in and out of the lungs every respiratory cycle.</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/books/NBK448186/?fbclid=IwAR0O5rwiWrf_9qixGk1Qx6LPEiLIX0tGoR3rsu1ZzcCaRXn9MLAglpdK0Nw">Ventilator Management</a> (NIH)</p>
+
+<h3 id="ventilation">Ventilation</h3>
+
+<p>Moving air in and out of the lungs to facilitate gas exchange - bringing in oxygen and flushing out carbon dioxide. Ventilation occurs naturally (breathing), or in cases of respiratory failure, via mechanical ventilation (ventilators).</p>
+
+<p><strong>References:</strong></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/books/NBK448186/?fbclid=IwAR0O5rwiWrf_9qixGk1Qx6LPEiLIX0tGoR3rsu1ZzcCaRXn9MLAglpdK0Nw">Ventilator Management</a> (NIH)</p>
+
+<h1 id="acronyms">Acronyms</h1>
+
+<p><strong>AIIR -</strong> Airborne Infection Isolation Room</p>
+
+<p><strong>ARDS</strong> - Acute Respiratory Distress Syndrome</p>
+
+<p><strong>BARDA</strong> - Biomedical Advanced Research and Development Authority</p>
+
+<p><strong>CPAP</strong> - Continuous positive airway pressure</p>
+
+<p><strong>COTS -</strong> Commercial off-the-shelf</p>
+
+<p><strong>BiPAP</strong> - Bilevel positive airway pressure</p>
+
+<p><strong>BVM</strong> - <em>**</em>Bag valve mask</p>
+
+<p><strong>EMS</strong> - Emergency Medical Services</p>
+
+<p><strong>EUA</strong> - <em>**</em>Emergency Use Authorization</p>
+
+<p><strong>FDA</strong> - Food &amp; Drug Administration</p>
+
+<p><strong>FiO</strong> - Fraction of inspired oxygen</p>
+
+<p><strong>FFP</strong> - Full face protection</p>
+
+<p><strong>HCP</strong> - Healthcare professional</p>
+
+<p><strong>HHS</strong> - Health &amp; Human Services</p>
+
+<p><strong>IPPV -</strong> Tracheostomy, intubation</p>
+
+<p><strong>SARI</strong> - Severe Acute Respiratory Infection</p>
+
+<p><strong>SNS</strong> - Strategic National Stockpile</p>
+
+<p><strong>MCM</strong> - Medical countermeasure</p>
+
+<p><strong>NIV</strong> - Noninvasive ventilation</p>
+
+<p><strong>NPV</strong> - Negative pressure ventilation</p>
+
+<p><strong>PEEP</strong> - Positive end-expiratory pressure</p>
+
+<p><strong>PPV</strong> - Positive pressure ventilation</p>
+
+<p><strong>Rr</strong> - Respiratory rate</p>
+
+<p><strong>Vt</strong> - Tidal volume</p>
+:ET

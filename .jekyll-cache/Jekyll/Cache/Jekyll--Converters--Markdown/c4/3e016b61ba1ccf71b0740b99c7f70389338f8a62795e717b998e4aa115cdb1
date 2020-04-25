@@ -1,0 +1,46 @@
+I"}	<h1 id="hospital-beds">Hospital Beds</h1>
+
+<h1 id="the-problem">The Problem:</h1>
+
+<p>If growth of cases continues unabated, hospital beds will be in short supply. Hospital beds allow for patient care with COVID-19 by…</p>
+
+<h1 id="current-global-resources">Current Global Resources:</h1>
+
+<ul>
+  <li>900,000 US Hospital beds (<a href="https://stats.oecd.org/Index.aspx?DataSetCode=HEALTH_REAC#">OECD</a>)
+    <ul>
+      <li>2/3rds of these are occupied at any given time (<a href="https://www.statista.com/statistics/185904/hospital-occupancy-rate-in-the-us-since-2001/">source</a>)
+        <ul>
+          <li>Note: these are averages; many hospitals in city centers and suburban areas regularly operate with higher occupancies.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ICU bed estimates vary, in part because there are many types of ICU beds.
+    <ul>
+      <li>According to the <a href="https://www.aha.org/statistics/fast-facts-us-hospitals">AHA</a>, there are 97,776 total ICU beds in community hospitals.</li>
+    </ul>
+  </li>
+  <li>According to CMS cost reports, there are about 62,000 (<a href="https://www.modernhealthcare.com/hospitals/covid-19-could-fill-hospital-beds-how-many-are-there">Modern Healthcare - Analysis of CMS Cost Reports</a>; ). However, some hospitals do not report data to CMS.
+    <ul>
+      <li>Large regional referral centers have many more beds than the “average” urban hospital, which has about 10 ICU beds.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="worst-case-expectation">Worst Case Expectation:</h1>
+
+<p>“Consider, too, that hospitals in many areas are already near capacity (UW Madison is at something like 90% full and COVID19 is only starting here).” - A.F. 3/15/20</p>
+
+<h1 id="engineering-requirements">Engineering Requirements:</h1>
+
+<h1 id="assemblyfabrication-requirements">Assembly/Fabrication Requirements:</h1>
+
+<h1 id="projectsresources">Projects/Resources:</h1>
+
+<p><a href="http://helpfulengineering.slack.com/">helpfulengineering.slack.com</a> #hardware-hospital-beds</p>
+
+<h1 id="reviewed-designs">Reviewed Designs:</h1>
+
+<p><em>This section is for product designs (links to instructions or downloadable packages) that have been reviewed and approved by medical professionals. When adding a design to this list, please include the (approximate) date of approval, the group or organization that reviewed it, and any modifications they recommend.</em></p>
+:ET

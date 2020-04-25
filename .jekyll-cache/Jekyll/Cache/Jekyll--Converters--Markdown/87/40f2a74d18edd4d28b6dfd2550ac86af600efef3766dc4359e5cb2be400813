@@ -1,0 +1,42 @@
+I"�	<h1 id="oscms---infusion-pump">OSCMS - Infusion Pump</h1>
+
+<h1 id="the-problem">The Problem:</h1>
+
+<p>“We often need more than 3 per patient, especially for dobutamine, and they are not complex.”</p>
+
+<h1 id="current-global-resources">Current Global Resources:</h1>
+
+<h1 id="engineering-requirements">Engineering Requirements:</h1>
+
+<p>The infusion pump system should include “Fluid infusion set for the complete fluid pathway from, and including, the drug reservoir or fluid source container (e.g., bag, cassette, vial, syringe), infusion set, extension sets, filters and valves, clamps, up to and including the patient connection; · Components and accessories (e.g., power cord, wireless controller); · Network (i.e., any device or system physically or wirelessly connected to the infusion pump); · Patient; · Environment of use (e.g., clinical setting, temperature, humidity); and · User (e.g., health care provider, lay user, biomedical technicians).”</p>
+
+<p>Requirements include the following:</p>
+
+<ul>
+  <li>Size</li>
+  <li>Battery Life</li>
+  <li>Rate Mode</li>
+  <li>Interval Mode</li>
+  <li>Demand Dose</li>
+  <li>Syringe Capacity</li>
+  <li>Alarms</li>
+  <li>Power Source</li>
+  <li>Physical Characteristics :</li>
+</ul>
+
+<h1 id="assemblyfabrication-requirements">Assembly/Fabrication Requirements:</h1>
+
+<h1 id="projectsresources">Projects/Resources:</h1>
+
+<ul>
+  <li><a href="https://www.open-electronics.org/guest_projects/openpump-an-open-source-hardware-syringe-pump/">Open Syringe Pump</a></li>
+  <li><a href="https://regulatorydoctor.us/wp-content/uploads/2013/05/Infusion-Pumps-Total-Product-Life-Cycle.pdf">https://regulatorydoctor.us/wp-content/uploads/2013/05/Infusion-Pumps-Total-Product-Life-Cycle.pdf</a></li>
+  <li><a href="https://www.accessdata.fda.gov/cdrh_docs/pdf5/K052594.pdf">https://www.accessdata.fda.gov/cdrh_docs/pdf5/K052594.pdf</a></li>
+  <li><a href="https://www.accessdata.fda.gov/cdrh_docs/pdf6/K060806.pdf">https://www.accessdata.fda.gov/cdrh_docs/pdf6/K060806.pdf</a></li>
+  <li><a href="https://www.fda.gov/combination-products">https://www.fda.gov/combination-products</a></li>
+</ul>
+
+<h1 id="reviewed-designs">Reviewed Designs:</h1>
+
+<p><em>This section is for product designs (links to instructions or downloadable packages) that have been reviewed and approved by medical professionals. When adding a design to this list, please include the (approximate) date of approval, the group or organization that reviewed it, and any modifications they recommend.</em></p>
+:ET
