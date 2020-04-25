@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- SCSS is being used, but jekyll generates a css file. -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <!-- DO NOT CHANGE FROM '.CSS'  -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+
+  <link type='text/css'
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i'>
+  </link>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- FA -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css"
+    integrity="sha256-CuUPKpitgFmSNQuPDL5cEfPOOJT/+bwUlhfumDJ9CI4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css"
+    integrity="sha256-pIAzc/BIIo/hSvtNEDIiMTBtR9EfK3COmnH2pt8cPDY=" crossorigin="anonymous" />
+  <!-- /FA -->
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- To use, pass in 'webName', e.g. webName='face-mask' -->
+<!-- MUST have matching .md file located relatively and .csv file in _data -->
+
+
+
+
+
+<div class="container markdown-container">
+  <h1 id="oscms---face-shields">OSCMS - Face Shields</h1>
+
+<hr />
+
+<h1 id="the-problem">The Problem:</h1>
+
+<p>Patients with COVID-19 experience significant respiratory issues, resulting in coughing. Virus particles are easily spread in the fluids expelled from the patient during episodes of coughing. The face shield is an additional barrier between the healthcare worker and the patient, reduces the risk of viral transmission via airborne droplets, and reduces virus load on face masks worn underneath the face shield.</p>
+
+<h1 id="current-global-resources">Current Global Resources:</h1>
+
+<p>Hospitals around the world continue to report shortages of face shields. <strong>[3/28/2020]</strong></p>
+
+<h1 id="worst-case-expectation">Worst Case Expectation:</h1>
+
+<p>Hospitals and clinicians will exhaust their supply of face shields and have no choice but to treat infectious patients without a face shield to reduce exposure to airborne droplets and contagious body fluids.</p>
+
+<h1 id="engineering-requirements">Engineering Requirements:</h1>
+
+<ul>
+  <li>Shield made of clear plastic that is firm (i.e. it will not “crinkle” or bend when someone bends forward or backward)</li>
+  <li>Should provide complete coverage of the entire face, including the length of the face to the chin, and the sides of the face (ideally 9” x 13” - though many designs will not meet this standard).</li>
+  <li>Ideal to have material across top of forehead to prevent ingress of liquids/droplets down the face and provide comfort</li>
+  <li>Must be able to be comfortably worn for long shifts (i.e. 12+ hours)</li>
+  <li>Adjustable band that is firmly attached around the head and clings closely to the forehead</li>
+  <li>Non-latex elastic (if using elastic) or band</li>
+</ul>
+
+<h1 id="assemblyfabrication-requirements">Assembly/Fabrication Requirements:</h1>
+
+<ul>
+  <li>Clear polyester film 0.007” thick (other thicknesses and materials such as PET, PETG, polycarbonate, with anti-fog coating ideal)</li>
+  <li>1” wide elastic fabric or other band that can be adjusted; must be comfortable, adjustable, non-latex</li>
+  <li>Adhesive-backed closed cell polyurethane foam (depending on the design, this may not always be necessary - please see the design docs)</li>
+  <li>Laser cutter or steel rule die</li>
+  <li>Stapler and shear</li>
+  <li>Heat sealer</li>
+  <li>Note: Low-end manufacture possible with scissors, Xacto, stapler</li>
+</ul>
+
+<h1 id="projectsresources">Projects/Resources:</h1>
+
+<p><a href="https://www.facebook.com/groups/670932227050506/675836286560100">Facebook Post to OSCMS Group- JustCreate Face Shield</a></p>
+
+<p><a href="https://www.osha.gov/SLTC/etools/eyeandface/ppe/chemicals.html#faceshields">OSHA Eye and Face Protection eTool</a></p>
+
+<p><a href="https://docs.google.com/document/d/15k20PMe14_XQa-8kTA2G7nSIrF1bGSpc90_GM9H8yNI/edit?usp=sharing">Design That Matters face shield resources</a></p>
+
+<h1 id="reviewed-designs">Reviewed Designs:</h1>
+
+<p><em>This section is for face shield designs for (links to instructions or downloadable packages) that have been clinically reviewed</em>. When adding a design to this list, please include the (approximate) date of review, the group or organization that reviewed it, and any modifications they recommend.*</p>
+
+<p><em>*Designs must be manufactured as described. Review should not be interpreted as official regulatory certification or rigorous peer review. These designs are being used by clinicians and others and they have been critiqued by medical professionals.</em></p>
+
+</div>
+
+
+<!-- From `projects.csv`, return the array matching the `webName` of
+    our markdown file, then sort //-->
+
+
+<div class="container">
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://3dprint.nih.gov/discover/3dpx-013421" class=".osms-link">
+          &nbsp;Stratsys</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 4/3/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team; NIH
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Recommended modifications: None
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          Healthcare: high risk of exposure to COVID patients,ER/ICU staff: long exposure to critical COVID patients
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://www.helpfulengineering.org/projects/origami-face-shield/" class=".osms-link">
+          &nbsp;Origami Face Shield</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 4/9/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Recommended modifications: None. Individual medical facility protocol will determine if this can be used during intubation procedure. Useful for nursing home staff, first-responders, and non-healthcare workers such as delivery couriers 
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          "Community: low risk, preventative measure, used for < 6hrs",Essential/Service workers: high risk for social exposure/community transmission,Healthcare: high risk of exposure to COVID patients
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://www.protohaven.org/proto-shield/" class=".osms-link">
+          &nbsp;Proto Shield</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 4/3/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Similar to Prusa; visor is compatible with Prusa 3D printed parts; faster to production.
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          "Community: low risk, preventative measure, used for < 6hrs",Healthcare: high risk of exposure to COVID patients,Essential/Service workers: high risk for social exposure/community transmission
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://open-face-ppe.now.sh/" class=".osms-link">
+          &nbsp;Open Face PPE</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 4/3/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Notes: Useful for nursing home staff, first-responders, and non-healthcare workers such as delivery couriers 
+
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          "Community: low risk, preventative measure, used for < 6hrs",Healthcare: high risk of exposure to COVID patients,Essential/Service workers: high risk for social exposure/community transmission
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://tinyurl.com/s3b9x29" class=".osms-link">
+          &nbsp;Prusa Face Shield</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+          Addtl. Design Link(s):
+          
+          <a href="https://tinyurl.com/y9sgwwua">
+              &nbsp;Link</a>,
+          
+          <a href="https://tinyurl.com/y9xqop9w">
+              &nbsp;Link</a>
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 4/3/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team; Czech Ministry of Health
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Recommended modifications: Prusa added a cover to their design; https://www.prusaprinters.org/prints/27318-prusa-protective-face-shield-cover-rc1-wip 
+This addition further protects the wearer in instances of aerosolized droplets/virus. Some hospitals or clinicians will want to have the cover due to higher risk conditions; others may not need it
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          ER/ICU staff: long exposure to critical COVID patients,Healthcare: high risk of exposure to COVID patients
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://tinyurl.com/vg56qqg" class=".osms-link">
+          &nbsp;Solin Design</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 4/3/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Notes: Face shield may sit extremely close to face making it such that a respirator cannot be worn. Useful for non-healthcare workers such as delivery couriers 
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          Essential/Service workers: high risk for social exposure/community transmission,"Community: low risk, preventative measure, used for < 6hrs",Healthcare: high risk of exposure to COVID patients
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://making.engr.wisc.edu/shield/" class=".osms-link">
+          &nbsp;UW Face Shield</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 3/19/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Recommended modifications: Non-latex elastic band; non-porous foam
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          Essential/Service workers: high risk for social exposure/community transmission,Healthcare: high risk of exposure to COVID patients,ER/ICU staff: long exposure to critical COVID patients
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://3dprint.nih.gov/discover/3dpx-013359" class=".osms-link">
+          &nbsp;DtM Face Shield Headband</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 4/3/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team; NIH
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Recommended modifications: None
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          Healthcare: high risk of exposure to COVID patients,ER/ICU staff: long exposure to critical COVID patients
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://3dprint.nih.gov/discover/3dpx-013309" class=".osms-link">
+          &nbsp;IC3D Budmen Face Shield </a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 
+      </div>
+      <div class="flex-row">
+        Reviewed by: 
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+
+      <!-- Intended Audience badge
+      
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          Healthcare: high risk of exposure to COVID patients,ER/ICU staff: long exposure to critical COVID patients
+        </div>
+       //-->
+
+    </div>
+  
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="https://www.facebook.com/photo.php?fbid=2590588794549230" class=".osms-link">
+          &nbsp;Baseball Cap Face Shield</a>
+        
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: 3/21/2020
+      </div>
+      <div class="flex-row">
+        Reviewed by: OSCMS Medical Review Team
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      
+        <ul>
+        
+        <li>
+          <div class="flex-row">
+            Not Recommended:  Hat is difficult to sterilize
+          </div>
+        </li>
+      </ul>
+      
+
+      <!-- Intended Audience badge
+       //-->
+
+    </div>
+  
+</div>
+</br>
+
+<!-- The Code Below Will One Day Resurface and, lo, its Glory, Will be Known.
+<div class="row justify-content-center">
+  
+</div>
+//-->
+
+
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+</body>
+
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
+  integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6'
+  crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js'></script>
+
+<script src='/scripts/init.js'></script>
+<script src='/scripts/backToTop.js'></script>
+<script src='/scripts/scrolling.js'></script>
+
+</html>
